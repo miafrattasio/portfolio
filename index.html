@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mia Frattasio | Cybersecurity & Software Engineering</title>
+    <meta name="description" content="Personal portfolio of Mia Frattasio, 2026 Systems Rotational Trainee at Brown Brothers Harriman and WPI Computer Science graduate.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Top Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#top" class="nav-logo">mia<span>.frattasio</span></a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle light or dark mode" title="Toggle theme">
+                    <span id="theme-icon">☀️</span>
+                </button>
+                <button id="menu-toggle" class="icon-btn mobile-only" aria-label="Toggle menu">
+                    ☰
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="top" class="hero">
+        <div class="hero-content">
+            <div class="profile-photo-wrapper">
+                <img src="profile.jpg" alt="Mia Frattasio" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="profile-fallback" aria-hidden="true">MF</div>
+            </div>
+
+            <div class="hero-text">
+                <p class="hero-eyebrow">Application Security &bull; Software Engineering</p>
+                <h1 class="name-title">Mia Frattasio</h1>
+                <h2 class="current-title">2026 Systems Rotational Trainee at Brown Brothers Harriman</h2>
+
+                <div class="hero-links">
+                    <button id="copy-email-btn" class="btn btn-primary" data-email="mia.frattasio@gmail.com">
+                        Copy Email
+                    </button>
+                    <a href="https://www.linkedin.com/in/mia-frattasio" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                        LinkedIn ↗
+                    </a>
+                    <a href="https://github.com/miafrattasio" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                        GitHub ↗
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- About & Education -->
+        <section id="about" class="section reveal">
+            <h2 class="section-title">About & Education</h2>
+            <div class="two-col-grid">
+                <article class="card">
+                    <h3>About Me</h3>
+                    <p>
+                        I am deeply passionate about all areas of cybersecurity, with a particular focus on application security. I enjoy exploring the OWASP Top 10 and practicing penetration testing techniques to strengthen secure development.
+                    </p>
+                    <p>
+                        I am known for my dedication, ability to learn quickly, and genuine kindness. I thrive in collaborative environments and bring strong leadership and presentation skills reinforced through Toastmasters. Outside of work, I enjoy crocheting, robotics, hiking, kayaking, and playing tennis.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Education</h3>
+                    <div class="edu-header">
+                        <strong>Worcester Polytechnic Institute (WPI)</strong>
+                        <span class="badge">May 2026 &bull; High Distinction</span>
+                    </div>
+                    <p class="edu-degree">
+                        B.S. Computer Science &bull; Concentration in Cybersecurity &bull; Minor in Data Science
+                    </p>
+                    <p class="edu-detail">
+                        <strong>Certifications:</strong> ISC2 Certified in Cybersecurity (CC) — <em>In Progress</em>
+                    </p>
+                    <p class="edu-detail">
+                        <strong>Relevant Courses:</strong> Software Security Engineering, Cryptography and Communication, Tools &amp; Techniques in Computer Network Security, Mobile &amp; Ubiquitous Computing, Advanced Computer Networks, Webware, Operating Systems, Software Engineering, Algorithms, Machine Organization &amp; Assembly Language, Modeling &amp; Data Analysis, Calculus IV.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Core Skills -->
+        <section id="skills" class="section reveal">
+            <h2 class="section-title">Core Skills</h2>
+            <div class="skills-grid">
+                <article class="card skill-card">
+                    <h3>Security</h3>
+                    <div class="tag-list">
+                        <span class="tag">Burp Suite</span>
+                        <span class="tag">OWASP Top 10</span>
+                        <span class="tag">Vulnerability Management</span>
+                        <span class="tag">Threat Analysis</span>
+                        <span class="tag">HCL AppScan</span>
+                        <span class="tag">Nexus</span>
+                        <span class="tag">Microsoft Defender</span>
+                        <span class="tag">Cybertrack</span>
+                    </div>
+                </article>
+
+                <article class="card skill-card">
+                    <h3>Languages</h3>
+                    <div class="tag-list">
+                        <span class="tag">Python</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">C / C++ / C#</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Kotlin</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">R</span>
+                        <span class="tag">MATLAB</span>
+                        <span class="tag">Racket</span>
+                    </div>
+                </article>
+
+                <article class="card skill-card">
+                    <h3>Frontend &amp; Full Stack</h3>
+                    <div class="tag-list">
+                        <span class="tag">React</span>
+                        <span class="tag">Next.js</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">Flask</span>
+                        <span class="tag">HTML / CSS</span>
+                    </div>
+                </article>
+
+                <article class="card skill-card">
+                    <h3>Cloud &amp; DevOps</h3>
+                    <div class="tag-list">
+                        <span class="tag">AWS</span>
+                        <span class="tag">Azure</span>
+                        <span class="tag">Google Cloud Run</span>
+                        <span class="tag">Linux</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">SSO</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section id="experience" class="section reveal">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+
+                <article class="card timeline-item">
+                    <div class="job-header">
+                        <div>
+                            <h3>Systems Rotational Trainee</h3>
+                            <p class="job-company">Brown Brothers Harriman &bull; Boston, MA</p>
+                        </div>
+                        <span class="badge">2026 – Present</span>
+                    </div>
+                    <ul class="details-list">
+                        <li><strong>Systems &amp; Security Rotation:</strong> Contributing across cybersecurity configurations, compliance automation, and secure developer guidance within enterprise systems teams.</li>
+                    </ul>
+                </article>
+
+                <article class="card timeline-item">
+                    <div class="job-header">
+                        <div>
+                            <h3>Platform Configuration &amp; Secure Coding Intern</h3>
+                            <p class="job-company">Brown Brothers Harriman &bull; Boston, MA</p>
+                        </div>
+                        <span class="badge">June 2025 – August 2025</span>
+                    </div>
+                    <ul class="details-list">
+                        <li><strong>Vulnerability Management:</strong> Analyzed applications using Open Source Analysis (OSA) and Static Application Security Testing (SAST) tools to identify vulnerabilities, develop remediation plans, and set timelines.</li>
+                        <li><strong>Penetration Testing:</strong> Independently led a penetration testing project with Burp Suite targeting three critical OWASP Top 10 vulnerabilities: Broken Access Control, Injection, and Vulnerable and Outdated Components.</li>
+                        <li><strong>Security Tool Integration:</strong> Tested Nexus and HCL AppScan IDE plugins and authored comprehensive documentation to streamline developer adoption.</li>
+                        <li><strong>Developer Resource Redesign:</strong> Revamped the BBH Secure Coding webpage into a more interactive hub for secure development guidance.</li>
+                        <li><strong>Toolkit Development:</strong> Completed an intern group capstone project redesigning the BBH Developer Toolkit.</li>
+                    </ul>
+                </article>
+
+                <article class="card timeline-item">
+                    <div class="job-header">
+                        <div>
+                            <h3>Information Technology Intern</h3>
+                            <p class="job-company">Salem Five Bank &bull; Salem, MA</p>
+                        </div>
+                        <span class="badge">May 2024 – August 2024</span>
+                    </div>
+                    <ul class="details-list">
+                        <li><strong>Departmental Rotation:</strong> Collaborated across all five Information Systems teams: IT Security, Applications Development, Infrastructure, IT Help, and Project Management Office (PMO).</li>
+                        <li><strong>Infrastructure &amp; Security Management:</strong> Monitored network and security threats and helped mitigate security risks for the bank.</li>
+                        <li><strong>Applications Development:</strong> Initiated and executed development projects, including automation workflows and application revamps.</li>
+                        <li><strong>Intranet Development:</strong> Contributed to the design and launch of the new bank Intranet.</li>
+                        <li><strong>Capstone Innovation Project:</strong> Co-developed a strategic intern capstone focused on "Banking in the Metaverse."</li>
+                    </ul>
+                </article>
+
+                <article class="card timeline-item">
+                    <div class="job-header">
+                        <div>
+                            <h3>On Demand Guest Advocate</h3>
+                            <p class="job-company">Target &bull; Hanover, MA</p>
+                        </div>
+                        <span class="badge">May 2023 – January 2024</span>
+                    </div>
+                    <ul class="details-list">
+                        <li><strong>Customer Resolution Specialist:</strong> Resolved high-volume customer inquiries, returns, and exchanges at the service desk with high satisfaction ratings.</li>
+                        <li><strong>Operational Support:</strong> Supported front-of-house operations across registers and drive-up order fulfillment.</li>
+                    </ul>
+                </article>
+
+                <article class="card timeline-item">
+                    <div class="job-header">
+                        <div>
+                            <h3>Tennis Instructor</h3>
+                            <p class="job-company">Self-Employed &bull; Norwell, MA</p>
+                        </div>
+                        <span class="badge">June 2019 – August 2022</span>
+                    </div>
+                    <ul class="details-list">
+                        <li><strong>Differentiated Instruction:</strong> Designed individualized coaching curricula for students ages 3–17 across varying skill levels.</li>
+                        <li><strong>Communication &amp; Feedback:</strong> Delivered clear technical coaching and constructive feedback resulting in measurable player improvement.</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section reveal">
+            <div class="section-header-row">
+                <h2 class="section-title">Projects</h2>
+                <input type="search" id="project-search" class="search-input" placeholder="Search projects or skills..." aria-label="Search projects">
+            </div>
+
+            <div class="filter-bar" role="tablist" aria-label="Filter projects by category">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="security">Cybersecurity</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack &amp; Mobile</button>
+                <button class="filter-btn" data-filter="algorithms">Algorithms &amp; Data</button>
+                <button class="filter-btn" data-filter="research">Design &amp; Research</button>
+            </div>
+
+            <p id="project-count" class="project-count"></p>
+
+            <div class="projects-grid" id="projects-grid">
+
+                <article class="card project-card" data-category="security algorithms">
+                    <h3>UI State Replication: Zero-Downtime Patching</h3>
+                    <p>Addresses software patching downtime without relying on costly LLMs. Runs locally on endpoints to capture user actions, replay them on a newly patched VM in real time, and realign when non-deterministic UI changes occur.</p>
+                    <div class="tag-list">
+                        <span class="tag">Python</span><span class="tag">pywinauto</span><span class="tag">UI State Trees</span><span class="tag">Search Algorithms</span>
+                    </div>
+                    <div class="project-links">
+                        <span class="muted-link">Link coming soon</span>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="security">
+                    <h3>Juice Shop Penetration Testing</h3>
+                    <p>Penetration test of OWASP Juice Shop presented to the BBH Cyber Working Group. Demonstrated real-world Burp Suite exploits across Broken Access Control, Injection, and Outdated Components—including a NoSQL Manipulation attack updating multiple product reviews simultaneously.</p>
+                    <div class="tag-list">
+                        <span class="tag">Burp Suite</span><span class="tag">OWASP Top 10</span><span class="tag">SQL Injection</span><span class="tag">NoSQL</span><span class="tag">IDOR</span><span class="tag">CSRF</span>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="security algorithms">
+                    <h3>Two-Tap-Plus Stream Cipher</h3>
+                    <p>Mitigates the Berlekamp-Massey vulnerability in traditional LFSRs using dynamic feedback selection across three LFSRs. LFSR 1 controls variable tap selection for the other registers, while LFSR 3 injects new gates whenever LFSR 1 or 2 reaches its period.</p>
+                    <div class="tag-list">
+                        <span class="tag">Python</span><span class="tag">Cryptography</span><span class="tag">LFSR</span><span class="tag">Algorithm Design</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/miafrattasio/New_LFSR_Feature" target="_blank" rel="noopener noreferrer">GitHub Repo ↗</a>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="fullstack security">
+                    <h3>WPIBuys</h3>
+                    <p>Student-only campus marketplace for WPI to buy, sell, and swap textbooks, clothing, and furniture. Features encrypted logins, profile photos, category/price search, listing management, and real-time buyer/seller chat.</p>
+                    <div class="tag-list">
+                        <span class="tag">Next.js</span><span class="tag">Node.js</span><span class="tag">TypeScript</span><span class="tag">MongoDB</span><span class="tag">WebSockets</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://www.youtube.com/watch?v=fW9sTtRRoZY" target="_blank" rel="noopener noreferrer">Project Video ↗</a>
+                        <a href="https://github.com/miafrattasio/WPIBuys" target="_blank" rel="noopener noreferrer">GitHub Repo ↗</a>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="fullstack algorithms">
+                    <h3>Clue Board Game Deduction Engine</h3>
+                    <p>Interactive serverless Clue Solver that deduces the game solution in real time using a custom stateful deduction algorithm that goes beyond simple card tracking to intelligently eliminate possibilities.</p>
+                    <div class="tag-list">
+                        <span class="tag">Python</span><span class="tag">Flask</span><span class="tag">Google Cloud Run</span><span class="tag">State Management</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://clue-solver-app-1067691072448.us-central1.run.app" target="_blank" rel="noopener noreferrer">Live App ↗</a>
+                        <a href="https://github.com/miafrattasio/clue-solver-app" target="_blank" rel="noopener noreferrer">GitHub Repo ↗</a>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="fullstack">
+                    <h3>Crochet Assistant Android App</h3>
+                    <p>Context-aware Android app for crocheters featuring a proximity sensor for hands-free row counting, a light sensor alert to prevent eye strain, and the Activity Recognition API to suggest stretch breaks.</p>
+                    <div class="tag-list">
+                        <span class="tag">Kotlin</span><span class="tag">Android Studio</span><span class="tag">Sensors</span><span class="tag">Dynamic Programming</span>
+                    </div>
+                    <!-- Update this href to your Crochet Assistant GitHub repo URL -->
+                    <div class="project-links">
+                        <a href="https://github.com/miafrattasio" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="fullstack research">
+                    <h3>Street Heat: Urban Heat Monitoring</h3>
+                    <p>Low-cost Arduino portable sensor, mobile app, and interactive web dashboard measuring temperature, humidity, and light intensity across Andalusia, Spain to visualize Urban Heat Islands in real time.</p>
+                    <div class="tag-list">
+                        <span class="tag">Next.js</span><span class="tag">JavaScript</span><span class="tag">Leaflet</span><span class="tag">Firebase</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://urbanheatmonitoring.web.app/dashboard/" target="_blank" rel="noopener noreferrer">Website ↗</a>
+                        <a href="https://digital.wpi.edu/concern/student_works/1r66j564b?locale=en" target="_blank" rel="noopener noreferrer">Research Paper ↗</a>
+                        <a href="https://github.com/miafrattasio/StreetHeat" target="_blank" rel="noopener noreferrer">GitHub Repo ↗</a>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="security">
+                    <h3>Cross-Site Scripting (XSS) Demo</h3>
+                    <p>Built side-by-side vulnerable and hardened versions of a comment-posting web application to demonstrate Cross-Site Scripting exploitation and secure coding defenses.</p>
+                    <div class="tag-list">
+                        <span class="tag">HTML</span><span class="tag">XSS</span><span class="tag">Secure Coding</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/femj333/cross-site-scripting" target="_blank" rel="noopener noreferrer">GitHub Repo ↗</a>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="fullstack security">
+                    <h3>Student Assistant Management System</h3>
+                    <p>Full-stack hiring portal with Single Sign-On (SSO) where students build academic profiles to apply for TA/SA roles and professors post course requirements and review applicants.</p>
+                    <div class="tag-list">
+                        <span class="tag">Python</span><span class="tag">Flask</span><span class="tag">SQLAlchemy</span><span class="tag">SSO</span><span class="tag">Bootstrap</span>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="fullstack">
+                    <h3>Book Collection Tracker</h3>
+                    <p>Full-stack personal library manager with user registration/login stored in MongoDB, full CRUD operations per user, and automatic read/unread status tracking based on ratings.</p>
+                    <div class="tag-list">
+                        <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span><span class="tag">Tailwind CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/miafrattasio/BookCollection" target="_blank" rel="noopener noreferrer">GitHub Repo ↗</a>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="fullstack">
+                    <h3>Portfolio Website</h3>
+                    <p>Responsive, static personal portfolio built with semantic HTML, modern CSS Grid, and vanilla JavaScript for fast, low-latency hosting on GitHub Pages.</p>
+                    <div class="tag-list">
+                        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">GitHub Pages</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/miafrattasio/portfolio-website" target="_blank" rel="noopener noreferrer">GitHub Repo ↗</a>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="research">
+                    <h3>Makerspace: BBH Developer Toolkit</h3>
+                    <p>Redesigned the BBH Developer Toolkit through stakeholder interviews and workflow mapping, delivering a streamlined, user-centered Figma prototype for internal engineering teams.</p>
+                    <div class="tag-list">
+                        <span class="tag">Figma</span><span class="tag">UX Research</span><span class="tag">Stakeholder Interviews</span>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="research security">
+                    <h3>Banking in the Metaverse</h3>
+                    <p>Developed a three-phase strategic roadmap for Salem Five Bank's entry into Metaverse technologies, leading the security risk and regulatory threat analysis.</p>
+                    <div class="tag-list">
+                        <span class="tag">Security Research</span><span class="tag">Risk Analysis</span><span class="tag">Strategy</span>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="algorithms">
+                    <h3>Document Review Reminder Automation</h3>
+                    <p>Automated annual compliance review notifications at Salem Five Bank using Microsoft Power Automate, reducing manual follow-up for document owners and IT staff.</p>
+                    <div class="tag-list">
+                        <span class="tag">Power Automate</span><span class="tag">Automation</span><span class="tag">Compliance</span>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="algorithms">
+                    <h3>Actors &amp; Movies Degrees of Separation</h3>
+                    <p>Modeled actor-movie relationships as a graph in Java and implemented Breadth-First Search (BFS) to compute shortest paths and degrees of separation ("Six Degrees of Kevin Bacon").</p>
+                    <div class="tag-list">
+                        <span class="tag">Java</span><span class="tag">BFS</span><span class="tag">Graphs</span><span class="tag">HashMaps</span>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="algorithms">
+                    <h3>Creating the Perfect Movie</h3>
+                    <p>Analyzed a large film dataset in Python across genre, runtime, ratings, directors, cast, and certifications to identify the highest-performing combinations.</p>
+                    <div class="tag-list">
+                        <span class="tag">Python</span><span class="tag">Data Cleaning</span><span class="tag">Data Analysis</span>
+                    </div>
+                </article>
+
+                <article class="card project-card" data-category="research algorithms">
+                    <h3>Creating Algorithmic Music</h3>
+                    <p>Composed an original generative piece in Band-in-a-Box for WPI's Humanities and Arts capstone, building on music theory and interactive programming coursework.</p>
+                    <div class="tag-list">
+                        <span class="tag">MIDI</span><span class="tag">Band-in-a-Box</span><span class="tag">Algorithmic Design</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Mia Frattasio</p>
+            <div class="footer-links">
+                <a href="mailto:mia.frattasio@gmail.com">mia.frattasio@gmail.com</a>
+                <a href="https://www.linkedin.com/in/mia-frattasio" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/miafrattasio" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
